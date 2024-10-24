@@ -247,8 +247,8 @@ lin_reg_mse = mean_squared_error(y_test, lin_reg_predictions)
 lin_reg_rmse = math.sqrt(lin_reg_mse)
 lin_reg_v2 = r2_score(y_test, lin_reg_predictions)
 print('RMSE \t   ---->{}'.format(lin_reg_mse))
-'''MSE: the degree of closeness of the OBSERVED dependent variable to linear regression model (similar with Variance)
-    RMSE: the degree of accuracy of the PREDICTED values comparing with OBSERVED values (similar with STD)
+'''MSE: the degree of spread of the OBSERVED dependent variable in the model (similar with Variance)
+    RMSE: the degree of accuracy/closeness of the PREDICTED values comparing with OBSERVED values (similar with STD)
 '''
 print('R2 score  ---->{}'.format(lin_reg_v2))
 
